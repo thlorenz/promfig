@@ -1,6 +1,6 @@
 {
   "name": "promfig",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Completes a given config by prompting the user for the missing properties.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,15 @@
     "tap": "~0.4.3",
     "proxyquire": "~0.4.1"
   },
-  "keywords": ["prompt", "config", "complete", "fill in", "missing", "readline", "interface" ],
+  "keywords": [
+    "prompt",
+    "config",
+    "complete",
+    "fill in",
+    "missing",
+    "readline",
+    "interface"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
