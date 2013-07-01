@@ -27,7 +27,7 @@
     "tap": "~0.4.3",
     "proxyquire": "~0.4.1"
   },
-  "keywords": [],
+  "keywords": ["prompt", "config", "complete", "fill in", "missing", "readline", "interface" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
