@@ -1,4 +1,5 @@
 'use strict';
+
 var prompt =  require('promptly').prompt
   , pw     =  require('pw')
   , xtend  =  require('xtend')
@@ -46,6 +47,9 @@ var promfig = module.exports = function (properties, config, cb) {
             });
         }
     });
+
+  // Nothing to do if all properties are given
+  if (!tasks.length) return cb(null, xtend(config, {}));
 
   tasks.push(function (err) {
     if (err) return cb(err);
