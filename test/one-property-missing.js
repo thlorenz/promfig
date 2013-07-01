@@ -3,7 +3,6 @@
 
 var test = require('tape')
 var proxyquire = require('proxyquire')
-var promfig = require('..')
 
 var properties = { 
     user      :  'Please enter your username :  '
@@ -14,7 +13,9 @@ var config = { user: 'humptydumpty' };
 
 test('\n when one of two properties is missing', function (t) {
   var promfig = proxyquire('..', {
-    pw: function (cb) { setTimeout(cb.bind(null, 'pass'), 5) }
+    pw: function (cb) { 
+      setTimeout(cb.bind(null, 'pass'), 5) 
+    }
   })
 
   promfig(
@@ -22,7 +23,6 @@ test('\n when one of two properties is missing', function (t) {
     , config 
     , function (err, config) {
         if (err) return console.error('err: ', err);
-        console.log(config);
         t.deepEqual(
             config
           , { user: 'humptydumpty', password: 'pass' }
