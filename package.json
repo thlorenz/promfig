@@ -18,12 +18,14 @@
   "dependencies": {
     "pw": "0.0.4",
     "promptly": "~0.2.0",
-    "xtend": "~2.0.6"
+    "xtend": "~2.0.6",
+    "runnel": "~0.3.2"
   },
   "devDependencies": {
     "nave": "~0.4.3",
     "tape": "~1.0.4",
-    "tap": "~0.4.3"
+    "tap": "~0.4.3",
+    "proxyquire": "~0.4.1"
   },
   "keywords": [],
   "author": {
