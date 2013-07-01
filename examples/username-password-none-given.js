@@ -11,7 +11,8 @@ var config = {};
 promfig(
     properties
   , config 
-  , function (config) {
-      console.error(config);
+  , function (err, config) {
+      if (err) return console.error('err: ', err);
+      console.log(config);
   }
 );
