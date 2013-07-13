@@ -19,7 +19,7 @@
     "pw": "0.0.4",
     "promptly": "~0.2.0",
     "xtend": "~2.0.6",
-    "runnel": "~0.3.2"
+    "runnel": "~0.5.0"
   },
   "devDependencies": {
     "nave": "~0.4.3",
