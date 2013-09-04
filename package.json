@@ -1,6 +1,6 @@
 {
   "name": "promfig",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Completes a given config by prompting the user for the missing properties.",
   "main": "index.js",
   "scripts": {
@@ -49,4 +49,3 @@
     "node": ">=0.6"
   }
 }
-
