@@ -4,7 +4,7 @@
   "description": "Completes a given config by prompting the user for the missing properties.",
   "main": "index.js",
   "scripts": {
-    "test-main": "tap test/*.js",
+    "test-main": "node test/*.js",
     "test-0.8": "nave use 0.8 npm run test-main",
     "test-0.10": "nave use 0.10 npm run test-main",
     "test-all": "npm run test-main && npm run test-0.8 && npm run test-0.10",
@@ -18,14 +18,13 @@
   "dependencies": {
     "pw": "0.0.4",
     "promptly": "~0.2.0",
-    "xtend": "~2.0.6",
-    "runnel": "~0.5.0"
+    "xtend": "~2.1.1",
+    "runnel": "~0.5.1"
   },
   "devDependencies": {
-    "nave": "~0.4.3",
-    "tape": "~1.0.4",
-    "tap": "~0.4.3",
-    "proxyquire": "~0.4.1"
+    "nave": "~0.4.4",
+    "tape": "~1.1.0",
+    "proxyquire": "~0.5.1"
   },
   "keywords": [
     "prompt",
@@ -49,3 +48,4 @@
     "node": ">=0.6"
   }
 }
+
