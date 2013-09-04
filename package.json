@@ -18,14 +18,14 @@
   "dependencies": {
     "pw": "0.0.4",
     "promptly": "~0.2.0",
-    "xtend": "~2.0.6",
-    "runnel": "~0.5.0"
+    "xtend": "~2.1.1",
+    "runnel": "~0.5.1"
   },
   "devDependencies": {
-    "nave": "~0.4.3",
-    "tape": "~1.0.4",
+    "nave": "~0.4.4",
+    "tape": "~1.1.0",
     "tap": "~0.4.3",
-    "proxyquire": "~0.4.1"
+    "proxyquire": "~0.5.1"
   },
   "keywords": [
     "prompt",
@@ -49,3 +49,4 @@
     "node": ">=0.6"
   }
 }
+
